@@ -1,9 +1,26 @@
-### Hi, I'm Steve 👋  
+Hi! 👋  
+======
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/steven_testa?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fstesta&screen_name=steven_testa)
+```fsharp
+type Person = {
+    name: string;
+    role: string;
+    location: string;
+}
 
+let me = {
+    name = "Steve Testa"
+    role = "Software Developer"
+    location = "Cleveland, Ohio"
+} 
 
-### 🚀 Stuff I use :
+let greetingsFrom person = $"{person.name}, thanks you for stopping by!"
+
+greetingsFrom me
+```
+
+🚀 Tools and Languages 
+=======================
 
 <p align="left">
 <img  alt="DotNet" width="26px" src="https://raw.githubusercontent.com/github/explore/main/topics/dotnet/dotnet.png" />
@@ -24,6 +41,4 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="dotnet" width="25" height="25" />
 </p>
 
-[website]: https://testasoftware.com
-[twitter]: https://twitter.com/steven_testa
-[linkedin]: https://www.linkedin.com/in/stevendtesta/
+[![Twitter Follow](https://img.shields.io/twitter/follow/steven_testa?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fstesta&screen_name=steven_testa)

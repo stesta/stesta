@@ -19,7 +19,7 @@ let greetingsFrom person = $"{person.name}, thanks you for stopping by!"
 greetingsFrom me
 ```
 
-🚀 Tools and Languages 
+🛠️ Tools and Languages 
 =======================
 
 <p align="left">
